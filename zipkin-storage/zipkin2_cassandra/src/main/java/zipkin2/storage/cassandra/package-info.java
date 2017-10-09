@@ -11,7 +11,5 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-// This is in the package zipkin as it is intended for the zipkin v1 server
-// (eventhough it is backed by v2 components)
 @javax.annotation.ParametersAreNonnullByDefault
-package zipkin.autoconfigure.storage.cassandra3;
+package zipkin2.storage.cassandra;
